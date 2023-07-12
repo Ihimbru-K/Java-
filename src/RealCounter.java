@@ -23,4 +23,5 @@ public class RealCounter {
         System.out.println(temp); //displaying the value of temp = 2
 
     }
+
 }
