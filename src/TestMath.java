@@ -1,6 +1,7 @@
 public class TestMath {
     public static void main(String[] args){
 
+
         Maths maths = new Maths();
 
         int sum = maths.add(14,15);
