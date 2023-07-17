@@ -12,6 +12,12 @@ public class Array {
             System.out.println(integers[i]);        //looping through and printing all elements of the array
         }
 
+        int sum = 0;
+        for(int j = 0; j< integers.length; j++){
+            sum += integers[j];
+        }
+        System.out.println("Sum of array elements is : "+ sum);
+
         int[] integers2 = new int[7];  // declaring an empty array of 7 indices
 
         for(int k = 0; k < integers2.length; k++){  // looping through the first and second arrays and storing the content of the first in the seconed
