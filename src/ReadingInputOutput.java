@@ -11,10 +11,6 @@ public class ReadingInputOutput {
         int myAge = age.nextInt();
 
         System.out.println(myName+" you are "+myAge+" years old");
-
-
-
-
     }
 
 }
