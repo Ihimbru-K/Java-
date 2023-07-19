@@ -1,4 +1,4 @@
-public class doWhile {
+public class DoWhile {
     public static void main(String[] args){
 
         // Initialize a variable i to 1
