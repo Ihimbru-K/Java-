@@ -1,8 +1,8 @@
 public class RemovePunctuation {
 
     public static String removePunctuation(String phrase){
-        StringBuilder word = new StringBuilder();
-        word.append(phrase);
+        StringBuilder word = new StringBuilder(phrase);
+        //word.append(phrase);
 
         for(int i = 0; i<word.length(); i++){
             char c = word.charAt(i);
