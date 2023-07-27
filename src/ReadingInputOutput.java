@@ -14,7 +14,13 @@ public class ReadingInputOutput {
         System.out.println("Enter your school");
         String mySchool = school.next();
 
-        System.out.println(myName+" you are "+myAge+" years old" + "and you school in"+mySchool);
+        Scanner height = new Scanner(System.in);
+        System.out.println("Enter your height");
+        double myHeight = height.nextDouble();
+
+
+
+        System.out.println(myName+" you are "+myAge+ " years old and you school in "+mySchool + "your height is "+myHeight);
     }
 
 }
