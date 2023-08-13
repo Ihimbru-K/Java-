@@ -10,5 +10,10 @@ public class FibonacciSequence extends Progression {
         super(first);
         prev = second - first;
     }
-    
-}
+    protected void Advance(){
+         long temp=prev;
+         prev=current;
+         current+=temp;
+         }
+  }
+
