@@ -17,5 +17,5 @@ public class ArithmeticProgression extends Progression{
     protected void Advance(){
         current += increment;
     }
-    
+
 }
