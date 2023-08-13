@@ -4,7 +4,8 @@ public class CreditCard {
     private String bank;
     private String account;
     private int limit;
-    private double balance;
+    protected double balance;
+
 
 
 
