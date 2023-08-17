@@ -1,14 +1,14 @@
 public class ClassA {
     protected String name;
 
-    public ClassA(String name){
-        name = this.name;
+    public ClassA(){
+        this.name = name;
     }
 
     public class ClassB extends ClassA{
 
         public ClassB(String name) {
-            super(name);
+            super();
         }
     }
 
@@ -30,4 +30,15 @@ public class ClassA {
 
     }
 
+
+    public static void main(String[] args){
+
+ClassC myClass = new ClassA().new ClassC("Ihimbru");
+        System.out.println("Your name is "+myClass.getName());
+
+        myClass.setName("Kanyimi");
+        System.out.println("Your other name is "+myClass.getName());
+    }
+
 }
+
