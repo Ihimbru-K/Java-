@@ -24,7 +24,13 @@ public class Mult3By3 {
             }
 
         }
-        for(int k = 0; k<3; k)
+        int[] sum = new int[3];
+        for(int k = 0; k<3; k++){
+            for(int l = 0; l<3; l++){
+
+                sum[k] += sumr1[k][l];
+            }
+        }
         System.out.println(Arrays.deepToString(sumr1));
 
 
