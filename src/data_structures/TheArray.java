@@ -32,5 +32,10 @@ public class TheArray {
 
         Arrays.stream(fruits).forEach(System.out::println);
 
+        String[] arr = new String[5];
+
+        arr[0] = "Kboy";
+        System.out.println(Arrays.toString(arr));
+
     }
 }
