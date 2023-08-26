@@ -24,6 +24,8 @@ public class Mult3By3 {
             }
 
         }
+
+        //Getting the sum of each row in sumr1 matrix
         int[] sum = new int[3];
         for(int k = 0; k<3; k++){
             for(int l = 0; l<3; l++){
@@ -31,7 +33,11 @@ public class Mult3By3 {
                 sum[k] += sumr1[k][l];
             }
         }
+
+
+
         System.out.println(Arrays.deepToString(sumr1));
+        System.out.println(Arrays.toString(sum));
 
 
     }
