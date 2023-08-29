@@ -1,7 +1,10 @@
 package data_structures;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
 
 public class TheList {
 
@@ -28,8 +31,14 @@ public class TheList {
 
         System.out.println(ages.contains(22));
 
+
+
         List<String> names = List.of("Kanyimi", "Unji");   //size is fixed once declared hence can't add elements
+
+
     }
+
+
 
 
 }
