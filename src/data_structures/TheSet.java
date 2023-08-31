@@ -10,7 +10,8 @@ public class TheSet {
         peopleSet.add(new People("Mike"));
         peopleSet.add(new People("Jake"));
         peopleSet.add(new People("Jason"));
-        peopleSet.add(new People("Jason")); // set data structure doesn't recognize duplicates
+        peopleSet.add(new People("Jason"));// set data structure doesn't recognize duplicates
+        System.out.println(peopleSet.size()); // should return 3 because set doesn't recognize duplicates
         // prints elements of set in any order because element of a set aren't stored in any order
         peopleSet.forEach(System.out::println);
 
