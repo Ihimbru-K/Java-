@@ -27,6 +27,7 @@ public class TheList {
         ages.add(21);
         ages.add(20);
         ages.add(19);
+        ages.remove(0);
         //ages.add("s"); cannot go cos i've declared the type explicitely
 
         System.out.println(ages.contains(22));

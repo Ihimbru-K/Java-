@@ -8,6 +8,8 @@ public class Queues {
 
     public static void main(String[] args){
 
+        LinkedList<People> linkedlist = new LinkedList<>();
+
     }
 
     private static void queues() {
