@@ -7,6 +7,12 @@ public class Maps {
     public static void main(String[] args){
         //A map is a collection of key-value pairs
         //Keys cannot be duplicate and can only be assigned one object
+        maps();
+
+
+    }
+
+    private static void maps() {
         Map<Integer, Person> myMap = new HashMap<>();
 
         myMap.put(1, new Person("Ihimbru"));
@@ -29,10 +35,7 @@ public class Maps {
         myMap.forEach((key, person)-> System.out.println(key + "-" + person));
 
         //more optimized
-
-
-
-
     }
+
     record Person(String name){}
 }
