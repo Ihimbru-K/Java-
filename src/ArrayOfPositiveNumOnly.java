@@ -16,16 +16,12 @@ public class ArrayOfPositiveNumOnly {
 
         }
         public List<Integer> RemoveNegative (){
-
-            for (int i: Arr) {
-                if (i % 2 != 0) {
-                  Arr.remove(i);
+            for (int i = Arr.size()-1; i>=0; i--){
+                if(Arr.get(i)<0){
+                    Arr.remove(i);
                 }
             }
             return Arr;
-
-
-
         }
 
         @Override
