@@ -35,7 +35,13 @@ public class TheArray {
         String[] arr = new String[5];
 
         arr[0] = "Kboy";
+        arr[1] = "Baba";
         System.out.println(Arrays.toString(arr));
+
+        String[] StringArr = new String[6];
+        int[] IntArr = {1,2,3,4,5};
+
+
 
     }
 }

@@ -37,6 +37,21 @@ public class TheList {
         List<String> names = List.of("Kanyimi", "Unji");   //size is fixed once declared hence can't add elements
 
 
+        List<String> fruits = new ArrayList<>();
+
+        fruits.add("Banana");
+        fruits.add("Mango");
+        fruits.add("Pear");
+        fruits.add("Apple");
+
+        fruits.remove("Banana");
+        fruits.remove(2);
+
+        for(Object f : fruits){
+            System.out.println(f);
+        }
+
+        
     }
 
 
