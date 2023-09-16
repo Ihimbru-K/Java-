@@ -32,33 +32,23 @@ public class ArrayOfPositiveNumOnly {
     }
 
 
-//    static List<Integer> arrlist = new ArrayList<>();
-//
-//    public static <arrlist> ArrayList<Integer> PositiveArr(arrlist arr){
-//
-//        for(Object l : arrlist){
-//            System.out.println(l);
-//        }
-//        return arrlist;
-//    }
-
-
     public static void main(String[] args){
         ArrP negativeArr = new ArrP();
         negativeArr.add(1);
         negativeArr.add(2);
-        negativeArr.add(3);
+        negativeArr.add(-3);
         negativeArr.add(4);
-        negativeArr.add(5);
-        negativeArr.add(6);
+        negativeArr.add(-5);
+        negativeArr.add(-6);
         negativeArr.add(7);
-        negativeArr.add(8);
+        negativeArr.add(-8);
         negativeArr.add(9);
-        negativeArr.add(10);
+        negativeArr.add(-10);
 
 
-        System.out.println(negativeArr.RemoveNegative().toString());
+        //System.out.println(negativeArr.RemoveNegative().toString());
 
+        negativeArr.RemoveNegative();
         System.out.println(negativeArr.toString());
 
 
