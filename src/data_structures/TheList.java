@@ -52,7 +52,7 @@ public class TheList {
         }
         List<Integer> marks = new ArrayList<>();
         marks.add(50);
-        marks.add(2,100);
+        marks.add(100);
         marks.add(75);
         marks.add(55);
         marks.add(765);
