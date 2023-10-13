@@ -20,10 +20,25 @@ public class ReverseArray {
 
     }
 
+    public static int[] revArr(int[] arra){
+        int n = arra.length;
+        int[] revArr = new int[n];
+        for(int j = n-1, k = 0; j >= 0; j--, k++){
+            revArr[k] = arra[j];
+        }
+        return revArr;
+    }
+
 
 
 
     public static void main(String[] args){
+        int[] testArr = {2,4,6,8,10};
+        int[] reversedArray = revArr(testArr);
+        System.out.println(Arrays.toString(reversedArray));
+
+
+
         int[] myArray = {1,2,3,4,5,6,7};
         int[] revArray = reverseArray(myArray);
         System.out.println(Arrays.toString(revArray));
