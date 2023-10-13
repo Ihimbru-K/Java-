@@ -50,6 +50,20 @@ public class TheList {
         for(Object f : fruits){
             System.out.println(f);
         }
+        List<Integer> marks = new ArrayList<>();
+        marks.add(50);
+        marks.add(2,100);
+        marks.add(75);
+        marks.add(55);
+        marks.add(765);
+        marks.add(45);
+        marks.add(89);
+
+        for (int mark: marks
+             ) {
+            System.out.println(mark);
+
+        }
 
         
     }
